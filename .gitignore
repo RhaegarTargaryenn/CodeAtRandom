@@ -1,0 +1,63 @@
+# Data and cache directories
+data/
+cache/
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Models (sentence-transformers cache)
+models/
+.cache/
+~/.cache/torch/
+sentence_transformers/
+
+# Streamlit
+.streamlit/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Large files warning
+# DO NOT commit data/ or cache/ directories!
